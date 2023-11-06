@@ -1,0 +1,321 @@
+<!--  <>   
+http://lpdesarrollo.orgfree.com/
+  
+HOST GRATIS:  https://www.heroku.com/pricing
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Joaquin Botta</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+       <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Desarrollo Web</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                
+                    <!--- Iconos del menu responsive-->
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!--- Iconos de las redes sociales -->
+                    <div class="redes">
+                        <a href="https://www.youtube.com/channel/UCqWBHk8PYQrCLBX48Ajw89Q" target="_blank"><i class="fa-brands fa-youtube"> </i></a>
+                        <a href="https://www.facebook.com/joa.botta" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/joabotta" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div> 
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenido</p>
+                <h2> <span>Joaquin Botta</span>, Ingeniero En Sistemas De Informacion</h2>
+                <p class="descripcion">Este es mi Portafolio</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <!--
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        -->
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Joaquin Botta</span> </h2>
+            <h3>Estudiante De Ingenieria En Sistemas De Informacion</h3>
+            <p>Estudio ingeniería en sistemas de información y actualmente estoy en cuarto año de la carrera. Mi principal área de enfoque es el desarrollo de software, donde tengo experiencia definiendo requerimientos y diseñando soluciones que se ajustan a las necesidades de los usuarios y clientes.</p>
+            <p>El objetivo que busco es poder adquirir experiencia y tener nuevos conocimientos para lograr una estructura sólida en el ámbito laboral. Sobre experiencia laboral de la carrera en la que estudio (Ingeniería en Sistemas de Información) es el desarrollo de sitios web, desarrollo en programa de gestión (Proyecto Universitario).</p>
+            <a href="https://drive.google.com/file/d/1weD7WyRSuNOTPyg28Q6aM55W2jN5ig6n/view?usp=sharing" target="_blank">Descargar CV</a>
+        </div>
+    </section>
+    
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS CONOCIMIENTOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Desarrollo De Sitios Y Aplicaciones Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+                <p>Me encargo de tu proyecto de forma integral: Planificación, Diseño UX / UI y Programación.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-python"></i></span>
+                
+                <h4>Porgramación Python</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Software</li>
+                    <li>Machine Learning</li>
+                    
+                </ul>
+                <p>Aprendi programacion con Python en la universidad, aprendiendo su logica y ademas en la materia de Matematica Superior viendo las bases de Machine Learning</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-wordpress"></i></span>
+                <h4>Wordpress</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Desarrollo a medida para resolver proyectos complejos de forma simple.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Base de Datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>PostgreSQL</li>
+                    <li>Docker</li>
+                    <li>Django</li>
+                </ul>
+                <p>En la carrera de ingenieria en sistemas de informacion aprendi a como utilizar PostgreSQL y Docker</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseño UI/UX</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                </ul>
+                <p>Diseño y creacion de prototipo de App, Sitio Web y Software de escritorio</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Programacion Java</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Mobile</li>
+                    <li>Esritorio</li>
+                </ul>
+                <p>Conocimientos necesarios y una base sólida, con un perfil de desarrollador de software de aplicaciones Java.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION Skills -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje"></span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje"></span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos - PostgreSQL - Docker</p>
+                <span class="porcentaje"></span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Python</p>
+                <span class="porcentaje"></span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Java</p>
+                <span class="porcentaje"></span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje"></span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacto</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <h4  class="input-mitad">Email: bottajoaquin@gmail.com</h4>
+                    <h4  class="input-mitad">Telefono: +54 353-4112557</h4>
+                </div>
+            </form>
+        </div>
+    </section>
+        <!-- SECCION FOOTER -->
+        <footer>
+            <p>Todos los derechos reservados, Joaquin Botta - 2023</p>
+            <div class="redes">
+                <a href="https://www.youtube.com/channel/UCqWBHk8PYQrCLBX48Ajw89Q"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.facebook.com/joa.botta"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/joabotta"><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+    
+        </footer>
+    
+        <script src="script.js"></script>
+</body>
+</html>
